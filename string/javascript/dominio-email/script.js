@@ -11,15 +11,15 @@ function extractEmailInformation(email) {
 //Example 1:
 const emailinfo1 = extractEmailInformation("joao.silva23@yahoo.com.br")
 
-console.log("Usuario: " + emailinfo1.username);
-console.log("Dominio: " + emailinfo1.domain);
-console.log("Brasileiro: " + (emailinfo1.isBrazilian ? "sim" : "nao"));
+console.log("Usuario:", emailinfo1.username);
+console.log("Dominio:", emailinfo1.domain);
+console.log("Brasileiro:", emailinfo1.isBrazilian ? "sim" : "nao");
 
 console.log("-----------------------");
 
 //Example 2:
 const emailinfo2 = extractEmailInformation("maria123@gmail.com")
 
-console.log("Usuario: " + emailinfo2.username);
-console.log("Dominio: " + emailinfo2.domain);
-console.log("Brasileiro: " + (emailinfo2.isBrazilian ? "sim" : "nao"));
+console.log("Usuario:", emailinfo2.username);
+console.log("Dominio:", emailinfo2.domain);
+console.log("Brasileiro:", emailinfo2.isBrazilian ? "sim" : "nao");
