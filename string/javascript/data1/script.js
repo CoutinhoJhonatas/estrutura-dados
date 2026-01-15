@@ -9,6 +9,7 @@ function extractDateData(date) {
 }
 
 function extractDateDataAlternative(date) {
+    // assumindo sempre vai ter zero à esquerda, podemos usar substring
     const day = Number(date.substring(0, 2));
     const month = Number(date.substring(3,5));
     const year = Number(date.substring(6,10));
@@ -20,7 +21,7 @@ function extractDateDataAlternative(date) {
     };
 }
 
-const extratedDate = extractDateData("01/07/2010");
+const extratedDate = extractDateData("1/07/2010");
 console.log(`Dia: ${extratedDate.day}`);
 console.log(`Mês: ${extratedDate.month}`);
 console.log(`Ano: ${extratedDate.year}`);
