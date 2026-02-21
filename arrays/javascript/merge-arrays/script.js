@@ -6,8 +6,8 @@ function mergeArrays(nums1, m, nums2, n) {
     nums1.sort((a, b) => a - b);
 }
 
-array1 = [1, 2, 3, 0, 0, 0];
-array2 = [1];
+const array1 = [1, 2, 3, 0, 0, 0];
+const array2 = [1];
 mergeArrays(array1, 3, [2, 5, 6], 3);
 mergeArrays(array2, 1, [], 0);
 
